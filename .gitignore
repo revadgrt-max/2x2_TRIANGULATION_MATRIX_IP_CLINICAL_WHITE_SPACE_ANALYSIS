@@ -1,0 +1,21 @@
+# Virtual environments
+.venv/
+.venv-1/
+.venv-2/
+.venv-3/
+myenv/
+source/
+my_project/*.egg-info/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Generated deliverables (exported CSVs, figures, PDF/DOCX/PPTX, workflow runs)
+output/
