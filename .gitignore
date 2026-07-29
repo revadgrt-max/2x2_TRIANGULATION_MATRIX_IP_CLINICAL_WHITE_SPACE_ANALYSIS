@@ -7,16 +7,9 @@ myenv/
 source/
 my_project/*.egg-info/
 
-# Portable local dev tools (Node.js binary, not installed system-wide)
-.local-tools/
-
 # Python caches
 __pycache__/
 *.pyc
-
-# Secrets
-.env
-.env.*
 
 # OS
 .DS_Store
@@ -26,18 +19,3 @@ __pycache__/
 
 # Generated deliverables (exported CSVs, figures, PDF/DOCX/PPTX, workflow runs)
 output/
-
-# Large raw source-data CSVs (research inputs, not needed to run/host the web app;
-# some exceed GitHub's 100MB hard limit)
-input/oncology_backbone.csv
-input/ip_final_version3.csv
-input/ip_final_version4.csv
-input/FINAL_master_plus_mab_addendum.csv
-input/clinical_final_version1.csv
-input/updated clinical trial master.csv
-
-# Node / Next.js
-web-app/node_modules/
-web-app/.next/
-web-app/out/
-web-app/.env.local
